@@ -13,7 +13,7 @@ Write a class called RationalNumber (RationalNumber.java) that represents a frac
 
 ### Constructors
 - **public RationalNumber()**: Constructs a new rational number to represent the ratio (0/1).
-- **public RationalNumber(int numerator, int denominator)**: Constructs a new rational number to represent the ratio (numerator/denominator) in reduced form. The denominator cannot be 0, so set denominator to 1 if 0 is passed.
+- **public RationalNumber(int numerator, int denominator)**: Constructs a new rational number to represent the ratio (numerator/denominator) in reduced form. The denominator cannot be 0, so set denominator to 1 if 0 is passed. If the denominator is negative, like "2/-3" then swap the sign on the numerator and take the absolute value of the denominator so you get "-2/3".
 
 ### Accessors
 - **public int getDenominator()**: Returns this rational number’s denominator value; for example, if the ratio is (3/5), returns 5.
