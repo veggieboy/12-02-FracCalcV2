@@ -29,7 +29,7 @@ Write a class called RationalNumber (RationalNumber.java) that represents a frac
 ## Output
 ```
 frac1: 1/2
-frac1: 1/4
+frac2: 1/4
 frac1 + frac2: 3/4
 frac1 - frac2: 1/2
 frac1 * frac2: 1/8
