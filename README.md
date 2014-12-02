@@ -18,7 +18,7 @@ Write a class called RationalNumber (RationalNumber.java) that represents a frac
 ### Accessors
 - **public int getDenominator()**: Returns this rational number’s denominator value; for example, if the ratio is (3/5), returns 5.
 - **public int getNumerator()**: Returns this rational number’s numerator value; for example, if the ratio is (3/5), returns 3.
-- **public String toString()**: Returns a reduced (see [Hint](#hint) String representation of this rational number, such as "3/5" or  returning "1/2" instead of "3/6". You should omit denominators of 1, returning "4" instead of "4/1".
+- **public String toString()**: Returns a reduced (see [Hint](#hint)) String representation of this rational number, such as "3/5" or  returning "1/2" instead of "3/6". You should omit denominators of 1, returning "4" instead of "4/1".
 
 ### Mutators
 - **public void add(RationalNumber frac)**: adds frac to this instance of RationalNumber
