@@ -1,0 +1,6 @@
+1,2c1,2
+< frac1: 1/2
+< frac2: 1/4
+---
+> The first fraction is: 1/2
+> The second Fraction is: 1/4
